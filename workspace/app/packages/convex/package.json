@@ -1,0 +1,17 @@
+{
+  "name": "@todo-app/convex",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'Convex dev server placeholder'",
+    "build": "echo 'Convex build placeholder'",
+    "test": "echo 'No tests yet'",
+    "lint": "echo 'No linting configured yet'",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

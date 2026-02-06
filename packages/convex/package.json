@@ -1,0 +1,21 @@
+{
+  "name": "@todo-app/convex",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "convex dev",
+    "build": "convex deploy --typecheck disable --codegen disable",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage --coverage.reporter=text"
+  },
+  "dependencies": {
+    "convex": "^1.17.0"
+  },
+  "devDependencies": {
+    "@edge-runtime/vm": "^4.0.0",
+    "convex-test": "^0.0.34",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}
